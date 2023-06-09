@@ -24,3 +24,6 @@ Route::get('/movies/{id}', [MoviesController::class, 'show']);
 Route::post('/movies', [MoviesController::class, 'store']);
 Route::put('/movies/{id}', [MoviesController::class, 'update']);
 Route::delete('/movies/{id}', [MoviesController::class, 'destroy']);
+
+// Route::get 'login'
+// Route::post 'register'
